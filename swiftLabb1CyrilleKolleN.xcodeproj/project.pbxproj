@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DB8DCE51A150E934E179E9B /* Pods_swiftLabb1CyrilleKolleNTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A543664EBE57BD0DD4A9F0 /* Pods_swiftLabb1CyrilleKolleNTests.framework */; };
+		376E30AFC314A99270257EEB /* Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DFAA1A62CEB3848E7119DB /* Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests.framework */; };
+		DC392597477EED615D4A9110 /* Pods_swiftLabb1CyrilleKolleN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AEB5AE90A3BCED485FFECC /* Pods_swiftLabb1CyrilleKolleN.framework */; };
 		E670629023F1863700116C3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E670628F23F1863700116C3F /* AppDelegate.swift */; };
 		E670629223F1863700116C3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E670629123F1863700116C3F /* SceneDelegate.swift */; };
 		E670629423F1863700116C3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E670629323F1863700116C3F /* ViewController.swift */; };
@@ -15,6 +18,37 @@
 		E670629C23F1863900116C3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E670629A23F1863900116C3F /* LaunchScreen.storyboard */; };
 		E67062A723F1863A00116C3F /* swiftLabb1CyrilleKolleNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062A623F1863A00116C3F /* swiftLabb1CyrilleKolleNTests.swift */; };
 		E67062B223F1863A00116C3F /* swiftLabb1CyrilleKolleNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062B123F1863A00116C3F /* swiftLabb1CyrilleKolleNUITests.swift */; };
+		E67062C023F1865C00116C3F /* weatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062BF23F1865C00116C3F /* weatherApi.swift */; };
+		E67062C123F1865C00116C3F /* weatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062BF23F1865C00116C3F /* weatherApi.swift */; };
+		E67062C223F1865C00116C3F /* weatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062BF23F1865C00116C3F /* weatherApi.swift */; };
+		E67062C423F1867A00116C3F /* weatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062C323F1867A00116C3F /* weatherInfo.swift */; };
+		E67062C523F1867A00116C3F /* weatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062C323F1867A00116C3F /* weatherInfo.swift */; };
+		E67062C623F1867A00116C3F /* weatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062C323F1867A00116C3F /* weatherInfo.swift */; };
+		E67062C823F1868D00116C3F /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = E67062C723F1868D00116C3F /* city.list.json */; };
+		E67062C923F1868D00116C3F /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = E67062C723F1868D00116C3F /* city.list.json */; };
+		E67062CA23F1868D00116C3F /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = E67062C723F1868D00116C3F /* city.list.json */; };
+		E67062CC23F1869500116C3F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062CB23F1869500116C3F /* City.swift */; };
+		E67062CD23F1869500116C3F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062CB23F1869500116C3F /* City.swift */; };
+		E67062CE23F1869500116C3F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062CB23F1869500116C3F /* City.swift */; };
+		E67062D023F18B0800116C3F /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062CF23F18B0800116C3F /* searchViewController.swift */; };
+		E67062D123F18B0800116C3F /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062CF23F18B0800116C3F /* searchViewController.swift */; };
+		E67062D223F18B0800116C3F /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062CF23F18B0800116C3F /* searchViewController.swift */; };
+		E67062D423F18FA200116C3F /* MajorCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062D323F18FA200116C3F /* MajorCities.swift */; };
+		E67062D523F18FA200116C3F /* MajorCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062D323F18FA200116C3F /* MajorCities.swift */; };
+		E67062D623F18FA200116C3F /* MajorCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062D323F18FA200116C3F /* MajorCities.swift */; };
+		E67062E423F31DC600116C3F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062E323F31DC600116C3F /* DetailViewController.swift */; };
+		E67062E523F31DC600116C3F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062E323F31DC600116C3F /* DetailViewController.swift */; };
+		E67062E623F31DC600116C3F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062E323F31DC600116C3F /* DetailViewController.swift */; };
+		E67062E823F3297600116C3F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062E723F3297600116C3F /* MyTableViewCell.swift */; };
+		E67062E923F3297600116C3F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062E723F3297600116C3F /* MyTableViewCell.swift */; };
+		E67062EA23F3297600116C3F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062E723F3297600116C3F /* MyTableViewCell.swift */; };
+		E67062F423F34C7500116C3F /* AnimatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062F323F34C7500116C3F /* AnimatedViewController.swift */; };
+		E67062F523F34C7500116C3F /* AnimatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062F323F34C7500116C3F /* AnimatedViewController.swift */; };
+		E67062F623F34C7500116C3F /* AnimatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67062F323F34C7500116C3F /* AnimatedViewController.swift */; };
+		E67062F823F3502B00116C3F /* weather.mov in Resources */ = {isa = PBXBuildFile; fileRef = E67062F723F3502A00116C3F /* weather.mov */; };
+		E67062F923F3502B00116C3F /* weather.mov in Resources */ = {isa = PBXBuildFile; fileRef = E67062F723F3502A00116C3F /* weather.mov */; };
+		E67062FA23F3502B00116C3F /* weather.mov in Resources */ = {isa = PBXBuildFile; fileRef = E67062F723F3502A00116C3F /* weather.mov */; };
+		E67386EF23FAA93C006392E9 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67386EE23FAA93C006392E9 /* ChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +69,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B513871BF66D14A2F010B5A /* Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.release.xcconfig"; path = "Target Support Files/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F66A561D02106F8F1CE3CE5 /* Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		714107B120A568ECCEE84E96 /* Pods-swiftLabb1CyrilleKolleN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLabb1CyrilleKolleN.release.xcconfig"; path = "Target Support Files/Pods-swiftLabb1CyrilleKolleN/Pods-swiftLabb1CyrilleKolleN.release.xcconfig"; sourceTree = "<group>"; };
+		79B0BE1BE72F8DFAEEB589A1 /* Pods-swiftLabb1CyrilleKolleNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLabb1CyrilleKolleNTests.debug.xcconfig"; path = "Target Support Files/Pods-swiftLabb1CyrilleKolleNTests/Pods-swiftLabb1CyrilleKolleNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82E9F1F210EEC1A9930E1850 /* Pods-swiftLabb1CyrilleKolleNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLabb1CyrilleKolleNTests.release.xcconfig"; path = "Target Support Files/Pods-swiftLabb1CyrilleKolleNTests/Pods-swiftLabb1CyrilleKolleNTests.release.xcconfig"; sourceTree = "<group>"; };
+		83A543664EBE57BD0DD4A9F0 /* Pods_swiftLabb1CyrilleKolleNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftLabb1CyrilleKolleNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AEB5AE90A3BCED485FFECC /* Pods_swiftLabb1CyrilleKolleN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftLabb1CyrilleKolleN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DFAA1A62CEB3848E7119DB /* Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E168F64636AF249CDE89E687 /* Pods-swiftLabb1CyrilleKolleN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLabb1CyrilleKolleN.debug.xcconfig"; path = "Target Support Files/Pods-swiftLabb1CyrilleKolleN/Pods-swiftLabb1CyrilleKolleN.debug.xcconfig"; sourceTree = "<group>"; };
 		E670628C23F1863700116C3F /* swiftLabb1CyrilleKolleN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLabb1CyrilleKolleN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E670628F23F1863700116C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E670629123F1863700116C3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +92,17 @@
 		E67062AD23F1863A00116C3F /* swiftLabb1CyrilleKolleNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftLabb1CyrilleKolleNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67062B123F1863A00116C3F /* swiftLabb1CyrilleKolleNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftLabb1CyrilleKolleNUITests.swift; sourceTree = "<group>"; };
 		E67062B323F1863A00116C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67062BF23F1865C00116C3F /* weatherApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherApi.swift; sourceTree = "<group>"; };
+		E67062C323F1867A00116C3F /* weatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherInfo.swift; sourceTree = "<group>"; };
+		E67062C723F1868D00116C3F /* city.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
+		E67062CB23F1869500116C3F /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		E67062CF23F18B0800116C3F /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
+		E67062D323F18FA200116C3F /* MajorCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorCities.swift; sourceTree = "<group>"; };
+		E67062E323F31DC600116C3F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E67062E723F3297600116C3F /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		E67062F323F34C7500116C3F /* AnimatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedViewController.swift; sourceTree = "<group>"; };
+		E67062F723F3502A00116C3F /* weather.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = weather.mov; sourceTree = "<group>"; };
+		E67386EE23FAA93C006392E9 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC392597477EED615D4A9110 /* Pods_swiftLabb1CyrilleKolleN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB8DCE51A150E934E179E9B /* Pods_swiftLabb1CyrilleKolleNTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +126,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376E30AFC314A99270257EEB /* Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5C4B62F49BA522B7E230590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEB5AE90A3BCED485FFECC /* Pods_swiftLabb1CyrilleKolleN.framework */,
+				E0DFAA1A62CEB3848E7119DB /* Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests.framework */,
+				83A543664EBE57BD0DD4A9F0 /* Pods_swiftLabb1CyrilleKolleNTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C69D1D7E222C1287E5D02A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E168F64636AF249CDE89E687 /* Pods-swiftLabb1CyrilleKolleN.debug.xcconfig */,
+				714107B120A568ECCEE84E96 /* Pods-swiftLabb1CyrilleKolleN.release.xcconfig */,
+				3F66A561D02106F8F1CE3CE5 /* Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.debug.xcconfig */,
+				2B513871BF66D14A2F010B5A /* Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.release.xcconfig */,
+				79B0BE1BE72F8DFAEEB589A1 /* Pods-swiftLabb1CyrilleKolleNTests.debug.xcconfig */,
+				82E9F1F210EEC1A9930E1850 /* Pods-swiftLabb1CyrilleKolleNTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E670628323F1863700116C3F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +163,8 @@
 				E67062A523F1863A00116C3F /* swiftLabb1CyrilleKolleNTests */,
 				E67062B023F1863A00116C3F /* swiftLabb1CyrilleKolleNUITests */,
 				E670628D23F1863700116C3F /* Products */,
+				C69D1D7E222C1287E5D02A6A /* Pods */,
+				B5C4B62F49BA522B7E230590 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +181,21 @@
 		E670628E23F1863700116C3F /* swiftLabb1CyrilleKolleN */ = {
 			isa = PBXGroup;
 			children = (
+				E67062F723F3502A00116C3F /* weather.mov */,
 				E670628F23F1863700116C3F /* AppDelegate.swift */,
 				E670629123F1863700116C3F /* SceneDelegate.swift */,
-				E670629323F1863700116C3F /* ViewController.swift */,
+				E67062C723F1868D00116C3F /* city.list.json */,
+				E67062D323F18FA200116C3F /* MajorCities.swift */,
 				E670629523F1863700116C3F /* Main.storyboard */,
+				E67386EE23FAA93C006392E9 /* ChartViewController.swift */,
+				E670629323F1863700116C3F /* ViewController.swift */,
+				E67062E723F3297600116C3F /* MyTableViewCell.swift */,
+				E67062CF23F18B0800116C3F /* searchViewController.swift */,
+				E67062F323F34C7500116C3F /* AnimatedViewController.swift */,
+				E67062E323F31DC600116C3F /* DetailViewController.swift */,
+				E67062CB23F1869500116C3F /* City.swift */,
+				E67062C323F1867A00116C3F /* weatherInfo.swift */,
+				E67062BF23F1865C00116C3F /* weatherApi.swift */,
 				E670629823F1863900116C3F /* Assets.xcassets */,
 				E670629A23F1863900116C3F /* LaunchScreen.storyboard */,
 				E670629D23F1863900116C3F /* Info.plist */,
@@ -135,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67062B623F1863A00116C3F /* Build configuration list for PBXNativeTarget "swiftLabb1CyrilleKolleN" */;
 			buildPhases = (
+				D0929DD19D6FFC89A8B93E7F /* [CP] Check Pods Manifest.lock */,
 				E670628823F1863700116C3F /* Sources */,
 				E670628923F1863700116C3F /* Frameworks */,
 				E670628A23F1863700116C3F /* Resources */,
+				1220ECA8BE14C4FDF38AA960 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67062B923F1863A00116C3F /* Build configuration list for PBXNativeTarget "swiftLabb1CyrilleKolleNTests" */;
 			buildPhases = (
+				2C810974EBC6C50D419B7631 /* [CP] Check Pods Manifest.lock */,
 				E670629E23F1863A00116C3F /* Sources */,
 				E670629F23F1863A00116C3F /* Frameworks */,
 				E67062A023F1863A00116C3F /* Resources */,
@@ -170,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E67062BC23F1863A00116C3F /* Build configuration list for PBXNativeTarget "swiftLabb1CyrilleKolleNUITests" */;
 			buildPhases = (
+				9C6A4C951096863DF8E7F81D /* [CP] Check Pods Manifest.lock */,
 				E67062A923F1863A00116C3F /* Sources */,
 				E67062AA23F1863A00116C3F /* Frameworks */,
 				E67062AB23F1863A00116C3F /* Resources */,
+				91743BBC785B475627868A8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E670629C23F1863900116C3F /* LaunchScreen.storyboard in Resources */,
+				E67062C823F1868D00116C3F /* city.list.json in Resources */,
+				E67062F823F3502B00116C3F /* weather.mov in Resources */,
 				E670629923F1863900116C3F /* Assets.xcassets in Resources */,
 				E670629723F1863700116C3F /* Main.storyboard in Resources */,
 			);
@@ -242,6 +342,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67062C923F1868D00116C3F /* city.list.json in Resources */,
+				E67062F923F3502B00116C3F /* weather.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +351,132 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67062CA23F1868D00116C3F /* city.list.json in Resources */,
+				E67062FA23F3502B00116C3F /* weather.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1220ECA8BE14C4FDF38AA960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftLabb1CyrilleKolleN/Pods-swiftLabb1CyrilleKolleN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftLabb1CyrilleKolleN/Pods-swiftLabb1CyrilleKolleN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftLabb1CyrilleKolleN/Pods-swiftLabb1CyrilleKolleN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C810974EBC6C50D419B7631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftLabb1CyrilleKolleNTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91743BBC785B475627868A8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6A4C951096863DF8E7F81D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0929DD19D6FFC89A8B93E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftLabb1CyrilleKolleN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E670628823F1863700116C3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67062D023F18B0800116C3F /* searchViewController.swift in Sources */,
 				E670629423F1863700116C3F /* ViewController.swift in Sources */,
+				E67062E823F3297600116C3F /* MyTableViewCell.swift in Sources */,
+				E67386EF23FAA93C006392E9 /* ChartViewController.swift in Sources */,
+				E67062C023F1865C00116C3F /* weatherApi.swift in Sources */,
+				E67062F423F34C7500116C3F /* AnimatedViewController.swift in Sources */,
+				E67062CC23F1869500116C3F /* City.swift in Sources */,
 				E670629023F1863700116C3F /* AppDelegate.swift in Sources */,
+				E67062C423F1867A00116C3F /* weatherInfo.swift in Sources */,
+				E67062E423F31DC600116C3F /* DetailViewController.swift in Sources */,
+				E67062D423F18FA200116C3F /* MajorCities.swift in Sources */,
 				E670629223F1863700116C3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +485,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67062D523F18FA200116C3F /* MajorCities.swift in Sources */,
+				E67062C523F1867A00116C3F /* weatherInfo.swift in Sources */,
+				E67062D123F18B0800116C3F /* searchViewController.swift in Sources */,
 				E67062A723F1863A00116C3F /* swiftLabb1CyrilleKolleNTests.swift in Sources */,
+				E67062E923F3297600116C3F /* MyTableViewCell.swift in Sources */,
+				E67062CD23F1869500116C3F /* City.swift in Sources */,
+				E67062F523F34C7500116C3F /* AnimatedViewController.swift in Sources */,
+				E67062C123F1865C00116C3F /* weatherApi.swift in Sources */,
+				E67062E523F31DC600116C3F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +501,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67062D623F18FA200116C3F /* MajorCities.swift in Sources */,
+				E67062C623F1867A00116C3F /* weatherInfo.swift in Sources */,
+				E67062D223F18B0800116C3F /* searchViewController.swift in Sources */,
 				E67062B223F1863A00116C3F /* swiftLabb1CyrilleKolleNUITests.swift in Sources */,
+				E67062EA23F3297600116C3F /* MyTableViewCell.swift in Sources */,
+				E67062CE23F1869500116C3F /* City.swift in Sources */,
+				E67062F623F34C7500116C3F /* AnimatedViewController.swift in Sources */,
+				E67062C223F1865C00116C3F /* weatherApi.swift in Sources */,
+				E67062E623F31DC600116C3F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +664,11 @@
 		};
 		E67062B723F1863A00116C3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E168F64636AF249CDE89E687 /* Pods-swiftLabb1CyrilleKolleN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859VSLGY88;
 				INFOPLIST_FILE = swiftLabb1CyrilleKolleN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +683,11 @@
 		};
 		E67062B823F1863A00116C3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714107B120A568ECCEE84E96 /* Pods-swiftLabb1CyrilleKolleN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859VSLGY88;
 				INFOPLIST_FILE = swiftLabb1CyrilleKolleN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +702,7 @@
 		};
 		E67062BA23F1863A00116C3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B0BE1BE72F8DFAEEB589A1 /* Pods-swiftLabb1CyrilleKolleNTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +724,7 @@
 		};
 		E67062BB23F1863A00116C3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E9F1F210EEC1A9930E1850 /* Pods-swiftLabb1CyrilleKolleNTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +746,7 @@
 		};
 		E67062BD23F1863A00116C3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F66A561D02106F8F1CE3CE5 /* Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +766,7 @@
 		};
 		E67062BE23F1863A00116C3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B513871BF66D14A2F010B5A /* Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
