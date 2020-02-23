@@ -1,0 +1,6 @@
+framework module Pods_swiftLabb1CyrilleKolleN {
+  umbrella header "Pods-swiftLabb1CyrilleKolleN-umbrella.h"
+
+  export *
+  module * { export * }
+}

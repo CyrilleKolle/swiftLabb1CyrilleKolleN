@@ -1,0 +1,6 @@
+framework module Pods_swiftLabb1CyrilleKolleN_swiftLabb1CyrilleKolleNUITests {
+  umbrella header "Pods-swiftLabb1CyrilleKolleN-swiftLabb1CyrilleKolleNUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
