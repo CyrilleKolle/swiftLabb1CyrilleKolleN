@@ -81,12 +81,17 @@ class searchViewController: UIViewController {
        historyCities = defaults.object(forKey: "history") as? [String] ?? [String]()
         print("searched cities saved: \(historyCities)")
         
-        if favoriteCity == ""{
+//        if favoriteCity == ""{
+//            favoriteCity = "Welcome"
+//        }else{
+//
+        if let loadedCity = defaults.object(forKey: "fc") as? String {
+            favoriteCity = loadedCity
+
+        } else {
             favoriteCity = "Welcome"
-        }else{
-        
-            favoriteCity = defaults.object(forKey: "fc") as! String
         }
+     //   }
         
         
         loadFavoriteCity()
