@@ -207,8 +207,15 @@ extension searchViewController: UITableViewDelegate, UITableViewDataSource{
             historyCities.remove(at: indexPath.row)
     
             tableView.deleteRows(at: [indexPath], with: .fade)
+            
+             let defaults = UserDefaults.standard
+            //historyCities = defaults.object(forKey: "history") as? [String] ?? [String]()
+            defaults.removeObject(forKey: "history")
             tableView.reloadData()
         }
+    }
+    func updateUserDefault(){
+        
     }
     
     
